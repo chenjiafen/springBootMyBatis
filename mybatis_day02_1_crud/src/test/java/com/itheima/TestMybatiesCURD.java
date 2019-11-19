@@ -63,4 +63,50 @@ public class TestMybatiesCURD {
         }
         sqlSession.close();
     }
+
+    @Test
+    public  void testFindById01(){
+
+        //获取输入流对象
+        InputStream inputStream= this.getClass().getClassLoader().getResourceAsStream("sqlMapConfig.xml");
+
+        //获取SqlSessFactory(sqlsessiond的工厂类)的对象
+
+        SqlSessionFactory sqlSessionFactory=new SqlSessionFactoryBuilder().build(inputStream);
+
+        //获取Sqlsession对象
+        SqlSession sqlSession= sqlSessionFactory.openSession();
+
+        //selectList 返回的一个list集合
+        //selectOne: 只能查询单个单个对象，返回一个对象
+
+      User user= sqlSession.selectOne("userMapper.findById",1);
+
+        System.out.println("selectOne查询"+user);
+
+        sqlSession.close();
+
+    }
+
+    @Test
+    public void  testSave(){
+        //获取输入流对象
+        InputStream inputStream= this.getClass().getClassLoader().getResourceAsStream("sqlMapConfig.xml");
+
+        //获取SqlSessFactory(sqlsessiond的工厂类)的对象
+
+        SqlSessionFactory sqlSessionFactory=new SqlSessionFactoryBuilder().build(inputStream);
+
+        //获取Sqlsession对象
+        SqlSession sqlSession= sqlSessionFactory.openSession();
+
+        //保存操作
+        User user = new User();
+        user.setUsername("天启");
+        user.setPassword("abc1234");
+        user.setName("tt");
+
+        sqlSession.insert("userMapper.save",user);
+        sqlSession.close();
+    }
 }

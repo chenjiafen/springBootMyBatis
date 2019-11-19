@@ -23,7 +23,7 @@
 
     <!--插入数据不要写返回值类型-->
     <select id="save" parameterType="com.itheima.domain.User">
-        insert  into  users value (null ,#{username},#{password},#{name})
+        insert  into  users value (null ,#{username},#{password},#{name},#{birthday})
 
     </select>
 
@@ -38,4 +38,23 @@
 
         delete from  users where  id=#{id}
     </delete>
+
+    <!--根据用户名模糊查询，username没有任何意思，可以随便写-->
+    <select id="findByUsername" resultType="com.itheima.domain.User" parameterType="java.lang.String">
+        select * from users where username like "%" #{username} "%"
+
+    </select>
+
+
+    <!--&lt;!&ndash;根据用户名模糊查询2,如果使用的是简单数据类型就必须使用value&ndash;&gt;-->
+    <!--<select id="findByUsername" resultType="com.itheima.domain.User" parameterType="java.lang.String">-->
+        <!--select * from users where username like "%${value}%"-->
+
+    <!--</select>-->
+
+    <!--查询总的记录数-->
+    <select id="findTotalCount" resultType="java.lang.Integer">
+
+        select COUNT(*) from  users
+    </select>
 </mapper>

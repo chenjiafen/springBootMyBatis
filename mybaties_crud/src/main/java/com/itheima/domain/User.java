@@ -1,10 +1,21 @@
 package com.itheima.domain;
 
+import java.util.Date;
+
 public class User {
     private Integer id;
     private String username;
     private String password;
     private String name;
+    private String birthday;
+
+    public String getBirthday() {
+        return birthday;
+    }
+
+    public void setBirthday(String birthday) {
+        this.birthday = birthday;
+    }
 
     public Integer getId() {
         return id;
@@ -45,6 +56,7 @@ public class User {
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 ", name='" + name + '\'' +
+                ", birthday=" + birthday +
                 '}';
     }
 }

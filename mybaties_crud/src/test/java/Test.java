@@ -4,6 +4,7 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 import java.io.InputStream;
+import java.util.Date;
 import java.util.List;
 
 public class Test {
@@ -85,8 +86,11 @@ public class Test {
 
 
     /**
-     * 4、测试保存
+     * 4、插入数据
      * 注意事务是不会去主动提交的
+     * <p>
+     * #好处是可以类型转换，数据库Birthday的
+     * date类型，但是我写成String类型可以转换成Date
      */
 
     @org.junit.Test
@@ -102,9 +106,10 @@ public class Test {
 
         //4、
         User user = new User();
-        user.setUsername("天启");
+        user.setUsername("朱勇");
         user.setPassword("abc123456");
-        user.setName("tianqi");
+        user.setName("zhuyong");
+        user.setBirthday("1990-12-03");
         sqlSession.insert("userMapper.save", user);
 
         //只要修改了数据库就必须提交
@@ -149,9 +154,45 @@ public class Test {
         InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("sqlConfig.xml");
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
         SqlSession sqlSession = sqlSessionFactory.openSession();
-        sqlSession.delete("userMapper.delete",2);
+        sqlSession.delete("userMapper.delete", 2);
         sqlSession.commit();
         sqlSession.close();
+
+    }
+
+    /**
+     * 7、根据用户名模糊查询
+     */
+
+    @org.junit.Test
+    public void testFindUsername() {
+        InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("sqlConfig.xml");
+        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        List<User> userList = sqlSession.selectList("userMapper.findByUsername", "柳");
+        for (User user : userList) {
+            System.out.println("模糊查询用户：" + user);
+        }
+        sqlSession.close();
+
+    }
+
+    /**
+     * 8、查询总的记录数
+     */
+
+    @org.junit.Test
+    public void testCount() {
+        InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("sqlConfig.xml");
+
+        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
+
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+
+      Integer count=  sqlSession.selectOne("userMapper.findTotalCount");
+      System.out.println("user的个数"+count);
+
+      sqlSession.close();
 
     }
 }
