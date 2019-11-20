@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--
+
+动态代理模式：规范必须遵守
+    namespace:必须是对应接口的权限类名
+
+    select|update|insert|delete:四个标签的id必须对应dao接口的方法名
+-->
+<mapper namespace="com.itheima.dao.UserDao">
+    <!--查询所有用户-->
+    <select id="findAll" resultType="com.itheima.domain.User">
+      select * from users
+    </select>
+    <!--插入数据,注意（内的参数和数据库保持一致）-->
+    <insert id="save" parameterType="com.itheima.domain.User">
+          insert  into  users value (null ,#{username},#{password},#{name},#{birthday})
+    </insert>
+
+</mapper>
