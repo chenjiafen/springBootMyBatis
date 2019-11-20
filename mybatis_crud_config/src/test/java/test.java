@@ -24,7 +24,7 @@ public class test {
      * 1、查询所有用户信息
      */
     @Test
-    public void testFindAll() {
+        public void testFindAll() {
         SqlSession sqlSession = sqlSessionFactory.openSession();
 
         //获取Dao接口动态代理对象
