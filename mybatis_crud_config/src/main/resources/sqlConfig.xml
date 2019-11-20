@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+      <!--  从 XML 中构建 SqlSessionFactory
+        -->
+<configuration>
+    <!--配置属性.方法1-->
+    <!--<properties>-->
+        <!--<property name="jdbc.driver" value="com.mysql.jdbc.Driver"></property>-->
+        <!--<property name="jdbc.url" value="jdbc:mysql://localhost:3306/test"></property>-->
+        <!--<property name="jdbc.username" value="root"></property>-->
+        <!--<property name="jdbc.password" value="root"></property>-->
+    <!--</properties>-->
+
+    <!--方法二，引入外部属性文件-->
+    <properties resource="jdbc.properties"></properties>
+
+    <!--typeAliases 类型别名-->
+    <typeAliases>
+        <!--&lt;!&ndash;单个类型映射&ndash;&gt;-->
+        <!--<typeAlias type="com.itheima.domain.User" alias="user"></typeAlias>-->
+        <!--包的映射：引入该包中所有的pojo类型，配置别名：简单类名（User，不区分大小写）-->
+        <package name="com.itheima.domain"></package>
+    </typeAliases>
+
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <mappers>
+        <!--引入映射配置文件-->
+        <!--<mapper resource="com/itheima/mapper/UsersMapper.xml"/>-->
+
+        <!--引入UserDao接口
+                前提：必须在同一个包中
+        -->
+        <mapper class="com.itheima.dao.UserDao"></mapper>
+    </mappers>
+
+</configuration>
