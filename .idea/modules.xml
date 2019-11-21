@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mybaites_crud_dao/mybaites_crud_dao.iml" filepath="$PROJECT_DIR$/mybaites_crud_dao/mybaites_crud_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybaties_crud/mybaties_crud.iml" filepath="$PROJECT_DIR$/mybaties_crud/mybaties_crud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_crud_config/mybatis_crud_config.iml" filepath="$PROJECT_DIR$/mybatis_crud_config/mybatis_crud_config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_crud_param/mybatis_crud_param.iml" filepath="$PROJECT_DIR$/mybatis_crud_param/mybatis_crud_param.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_crud_proxy/mybatis_crud_proxy.iml" filepath="$PROJECT_DIR$/mybatis_crud_proxy/mybatis_crud_proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_day02_1_crud/mybatis_day02_1_crud.iml" filepath="$PROJECT_DIR$/mybatis_day02_1_crud/mybatis_day02_1_crud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_day02_3_crud/mybatis_day02_3_crud.iml" filepath="$PROJECT_DIR$/mybatis_day02_3_crud/mybatis_day02_3_crud.iml" />
+    </modules>
+  </component>
+</project>

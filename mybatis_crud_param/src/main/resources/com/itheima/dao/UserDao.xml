@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--
+
+动态代理模式：规范必须遵守
+    namespace:必须是对应接口的权限类名
+
+    select|update|insert|delete:四个标签的id必须对应dao接口的方法名
+-->
+<mapper namespace="com.itheima.dao.UserDao">
+    <!--查询所有用户-->
+    <select id="findAll" resultType="User">
+      select * from users
+    </select>
+    <!--插入数据,注意（内的参数和数据库保持一致）-->
+    <insert id="save" parameterType="User">
+          insert  into  users value (null ,#{username},#{password},#{name},#{birthday})
+    </insert>
+
+    <!--多条件查询-->
+    <select id="findByCondition" resultType="User" parameterType="queryvo">
+      select * from users where username like "%"#{user.username}"%" limit #{starIndex},#{pageSize}
+    </select>
+
+
+    <!--多条件查询,resultType返回值类型，parameterType输入值类型-->
+    <select id="findByMap" resultType="user" parameterType="map">
+      select * from users where username like "%"#{username}"%" limit #{starIndex},#{pageSize}
+    </select>
+
+    <!--多参数的查新-->
+    <select id="findByManyParam" resultType="user">
+      select * from users where username like "%"#{param1}"%" limit #{param2},#{param3}
+    </select>
+</mapper>

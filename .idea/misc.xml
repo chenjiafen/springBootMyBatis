@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/mybatis_day02_1_crud/pom.xml" />
+        <option value="$PROJECT_DIR$/mybaties_crud/pom.xml" />
+        <option value="$PROJECT_DIR$/mybaites_crud_dao/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_crud_proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_day02_3_crud/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_crud_config/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_crud_param/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>
