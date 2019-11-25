@@ -7,6 +7,10 @@
         <id column="id" property="id"></id>
         <result column="username" property="username"></result>
     </resultMap>
+
+    <!--sql片段提取,id：唯一标志符-->
+    <sql id="select_user">select * from users</sql>
+
     <!--原始的方法-->
     <!--<select id="findByCondition" resultMap="Users" parameterType="user">-->
     <!--select * from users where username like "%"#{username}"%" and name =#{name}-->
@@ -14,25 +18,29 @@
 
     <!--方法一-->
     <!--<select id="findByCondition" resultMap="Users" parameterType="user">-->
-        <!--select * from users where 1=1-->
-        <!--<if test="username != null">-->
-            <!--And username like "%"#{username}"%"-->
-        <!--</if>-->
-        <!--<if test="name != null">-->
-            <!--AND name=#{name}-->
-        <!--</if>-->
+    <!--select * from users where 1=1-->
+    <!--<if test="username != null">-->
+    <!--And username like "%"#{username}"%"-->
+    <!--</if>-->
+    <!--<if test="name != null">-->
+    <!--AND name=#{name}-->
+    <!--</if>-->
     <!--</select>-->
 
     <!--方法二，通过where-->
     <select id="findByCondition" resultMap="Users" parameterType="user">
-      select * from users
+        -- 关联sql片段
+        -- include包含
+        -- refid 关联的sql片段的id
+        <include refid="select_user"></include>
+        -- select * from users
         <where>
-          <if test="username != null">
-            And username like "%"#{username}"%"
-          </if>
-          <if test="name != null">
-            AND name=#{name}
-          </if>
+            <if test="username != null">
+                And username like "%"#{username}"%"
+            </if>
+            <if test="name != null">
+                AND name=#{name}
+            </if>
         </where>
     </select>
 </mapper>
