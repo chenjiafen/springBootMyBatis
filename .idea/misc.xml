@@ -13,6 +13,9 @@
         <option value="$PROJECT_DIR$/mybatis_day02_3_crud/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis_crud_config/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis_crud_param/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_crud_resultType/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_crud_config_day03/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/pom.xml" />
       </list>
     </option>
   </component>

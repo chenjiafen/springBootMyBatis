@@ -21,7 +21,7 @@
 
 
 
-    <!--插入数据不要写返回值类型，#{}参数要和数据一致-->
+    <!--插入数据不要写返回值类型-->
     <select id="save" parameterType="com.itheima.domain.User">
         insert  into  users value (null ,#{username},#{password},#{name},#{birthday})
 

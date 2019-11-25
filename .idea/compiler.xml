@@ -9,18 +9,24 @@
         <module name="mybaites_crud_dao" />
         <module name="mybaties_crud" />
         <module name="mybatis_crud_config" />
+        <module name="mybatis_crud_config_day03" />
         <module name="mybatis_crud_param" />
         <module name="mybatis_crud_proxy" />
+        <module name="mybatis_crud_resultType" />
         <module name="mybatis_day02_1_crud" />
         <module name="mybatis_day02_3_crud" />
+        <module name="mybatis_day03_2_dynamic_sql" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mybaites_crud_dao" target="1.8" />
       <module name="mybaties_crud" target="1.8" />
       <module name="mybatis_crud_config" target="1.8" />
+      <module name="mybatis_crud_config (1)" target="1.8" />
+      <module name="mybatis_crud_config_day03" target="1.8" />
       <module name="mybatis_crud_param" target="1.8" />
       <module name="mybatis_crud_proxy" target="1.8" />
+      <module name="mybatis_crud_resultType" target="1.8" />
       <module name="mybatis_day02_1_crud" target="1.8" />
       <module name="mybatis_day02_3_crud" target="1.8" />
       <module name="mybatis_day03_2_dynamic_sql" target="1.8" />

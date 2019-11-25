@@ -17,4 +17,18 @@ public interface UserDao {
      * @return
      */
     public List<User> findByCondition(User user);
+
+
+    /**
+     * 根据数组删除多个用户对象
+     * @param ids
+     */
+    public void delByArry(Integer[] ids);
+
+
+    /**
+     * 根据集合山多个用户对象
+     * @param ids
+     */
+    public  void delByList(List<Integer> ids);
 }

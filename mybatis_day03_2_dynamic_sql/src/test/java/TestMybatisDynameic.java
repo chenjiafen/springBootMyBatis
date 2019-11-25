@@ -6,6 +6,7 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -38,6 +39,38 @@ public class TestMybatisDynameic {
             System.out.println("用户：" + user1);
         }
 
+        sqlSession.close();
+    }
+
+    /**
+     * 根据数组删除用户
+     */
+    @Test
+    public void test01() {
+
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        //动态代理
+        UserDao userDao = sqlSession.getMapper(UserDao.class);
+
+        Integer[] ids = new Integer[]{8, 16};
+        userDao.delByArry(ids);
+        sqlSession.close();
+    }
+
+    /**
+     * 根据集合删除用户
+     */
+    @Test
+    public void test02() {
+
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        //动态代理
+        UserDao userDao = sqlSession.getMapper(UserDao.class);
+
+        List<Integer> list = new ArrayList<Integer>();
+        list.add(6);
+        list.add(8);
+        userDao.delByList(list);
         sqlSession.close();
     }
 }

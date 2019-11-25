@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="247a6144-a953-4a5f-bf9b-3d446ebfe410" name="Default Changelist" comment="根据多参数的多条件查询">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/chenjiafeng.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mybaites_crud_dao/target/classes/META-INF/mybaites_crud_dao.kotlin_module" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mybaites_crud_dao/target/classes/com/itheima/dao/UserDao.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mybaites_crud_dao/target/classes/com/itheima/dao/impl/UserDaoImpl.class" afterDir="false" />
@@ -37,7 +34,15 @@
       <change afterPath="$PROJECT_DIR$/mybatis_day02_1_crud/target/test-classes/com/itheima/TestMybatiesCURD.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mybatis_day02_3_crud/mybatis_day02_3_crud.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mybatis_day02_3_crud/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybaites_crud_dao/src/main/resources/com/itheima/mapper/UsersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybaites_crud_dao/src/main/resources/com/itheima/mapper/UsersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_crud_config/target/classes/sqlConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_crud_config/target/classes/sqlConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/main/java/com/itheima/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/main/java/com/itheima/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/main/resources/com/itheima/dao/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/main/resources/com/itheima/dao/UserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/test/java/TestMybatisDynameic.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/test/java/TestMybatisDynameic.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/springbootibatis/target/" />
     <ignored path="$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/target/" />
@@ -48,6 +53,9 @@
     <ignored path="$PROJECT_DIR$/mybatis_day02_3_crud/target/" />
     <ignored path="$PROJECT_DIR$/mybatis_crud_config/target/" />
     <ignored path="$PROJECT_DIR$/mybatis_crud_param/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis_crud_resultType/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis_crud_config - day03/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis_crud_config_day03/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,76 +68,115 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis_crud_param/src/main/resources/com/itheima/dao/UserDao.xml">
+        <entry file="file://$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/main/resources/myybatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="35" column="86" selection-start-line="35" selection-start-column="86" selection-end-line="35" selection-end-column="86" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis_crud_param/src/main/java/com/itheima/domain/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis_crud_param/src/main/resources/jdbc.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis_crud_param/src/main/java/com/itheima/domain/QueryVo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="28" />
-              <folding>
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-                <element signature="e#565#566#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
-                <element signature="e#654#655#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis_crud_param/src/main/java/com/itheima/dao/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="21" column="37" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="37" />
+            <state relative-caret-position="441">
+              <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mybatis_crud_param/src/test/java/test.java">
+        <entry file="file://$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/test/java/TestMybatisDynameic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="128" column="5" lean-forward="true" selection-start-line="128" selection-start-column="5" selection-end-line="128" selection-end-column="5" />
+            <state relative-caret-position="481">
+              <caret line="71" column="20" lean-forward="true" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
               <folding>
-                <element signature="e#2661#2677#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1731#1740#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis_crud_param/pom.xml">
+        <entry file="file://$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/main/java/com/itheima/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-592" />
+            <state relative-caret-position="460">
+              <caret line="32" column="26" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/main/resources/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/main/resources/com/itheima/dao/UserDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="439">
+              <caret line="64" column="35" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/main/java/com/itheima/domain/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="27" />
+              <folding>
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+                <element signature="e#667#668#0" expanded="true" />
+                <element signature="e#698#699#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+                <element signature="e#765#766#0" expanded="true" />
+                <element signature="e#797#798#0" expanded="true" />
+                <element signature="e#832#833#0" expanded="true" />
+                <element signature="e#863#864#0" expanded="true" />
+                <element signature="e#911#912#0" expanded="true" />
+                <element signature="e#951#952#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis_crud_proxy/src/test/java/test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="19" column="117" selection-start-line="19" selection-start-column="98" selection-end-line="19" selection-end-column="117" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybaites_crud_dao/src/test/java/com/itheima/TestMybatisDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -138,6 +185,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="jdbc" />
         <option value="jdbc.properties" />
         <option value="Interface" />
         <option value="Class" />
@@ -147,30 +195,22 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>one</find>
+      <find>·</find>
+      <find>info</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springbootibatis/src/main/java/com/tylerchen/bean/Users.java" />
-        <option value="$PROJECT_DIR$/springbootibatis/src/main/java/com/tylerchen/Service/UserFindAll.java" />
-        <option value="$PROJECT_DIR$/springbootibatis/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/springbootibatis/src/main/java/com/tylerchen/Dao/UserMapper.java" />
-        <option value="$PROJECT_DIR$/springbootibatis/src/main/java/com/tylerchen/Controller/UserController.java" />
-        <option value="$PROJECT_DIR$/springbootibatis/src/main/java/com/tylerchen/Service/UserService.java" />
-        <option value="$PROJECT_DIR$/springbootibatis/src/main/resources/mapper/userMapper.xml" />
-        <option value="$PROJECT_DIR$/springbootibatis/src/main/java/com/tylerchen/Service/Serviceimpl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/springbootibatis/src/test/java/com/tylerchen/TestDemo.java" />
-        <option value="$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/pom.xml" />
-        <option value="$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/main/java/com/itheima/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/test/java/TestMybatisDynamic.java" />
-        <option value="$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/main/java/com/itheima/domain/User.java" />
-        <option value="$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/main/resources/com/itheima/dao/UserDao.xml" />
         <option value="$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/mybatis_day02_1_crud/src/main/java/com/itheima/domain/User.java" />
         <option value="$PROJECT_DIR$/mybatis_day02_1_crud/src/main/resources/UserMapper.xml" />
         <option value="$PROJECT_DIR$/mybatis_day02_1_crud/src/main/java/com/itheima/TestMybatiesCURD.java" />
@@ -204,8 +244,23 @@
         <option value="$PROJECT_DIR$/mybatis_crud_config/src/main/resources/sqlConfig.xml" />
         <option value="$PROJECT_DIR$/mybatis_crud_param/src/main/java/com/itheima/domain/QueryVo.java" />
         <option value="$PROJECT_DIR$/mybatis_crud_param/src/main/java/com/itheima/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/mybatis_crud_param/src/main/resources/com/itheima/dao/UserDao.xml" />
         <option value="$PROJECT_DIR$/mybatis_crud_param/src/test/java/test.java" />
+        <option value="$PROJECT_DIR$/mybatis_crud_resultType/src/test/java/test.java" />
+        <option value="$PROJECT_DIR$/mybatis_crud_resultType/src/main/java/com/itheima/domain/User.java" />
+        <option value="$PROJECT_DIR$/mybatis_crud_param/src/main/resources/com/itheima/dao/UserDao.xml" />
+        <option value="$PROJECT_DIR$/mybatis_crud_resultType/src/main/resources/com/itheima/dao/UserDao.xml" />
+        <option value="$PROJECT_DIR$/mybatis_crud_config_day03/src/main/resources/sqlConfig.xml" />
+        <option value="$PROJECT_DIR$/mybatis_crud_config_day03/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/mybatis_crud_config_day03/src/test/java/test.java" />
+        <option value="$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/main/resources/tadfasf.properties" />
+        <option value="$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/main/java/com/itheima/domain/User.java" />
+        <option value="$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/main/resources/myybatis-config.xml" />
+        <option value="$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/main/java/com/itheima/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/main/resources/com/itheima/dao/UserDao.xml" />
+        <option value="$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/test/java/TestMybatisDynameic.java" />
       </list>
     </option>
   </component>
@@ -240,6 +295,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -247,11 +303,121 @@
               <item name="springBootMyBatis" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatis_crud_param" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springBootMyBatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_day03_2_dynamic_sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootMyBatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_day03_2_dynamic_sql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootMyBatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_day03_2_dynamic_sql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootMyBatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_day03_2_dynamic_sql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootMyBatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_day03_2_dynamic_sql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootMyBatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_day03_2_dynamic_sql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootMyBatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_day03_2_dynamic_sql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootMyBatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_day03_2_dynamic_sql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootMyBatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_day03_2_dynamic_sql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootMyBatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_day03_2_dynamic_sql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootMyBatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_day03_2_dynamic_sql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootMyBatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_day03_2_dynamic_sql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootMyBatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_day03_2_dynamic_sql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootMyBatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_day03_2_dynamic_sql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBootMyBatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatis_day03_2_dynamic_sql" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,29 +427,29 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574347885937" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574702357023" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis_crud_param" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis_crud_config_day03" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.28965518" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.itheima.dao.impl" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WeWork\wospeace\springBootMyBatis\mybatis_day02_1_crud\src\main\resources\com\itheima\mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WeWork\wospeace\springBootMyBatis\mybatis_day03_2_dynamic_sql\src\main\resources" />
       <recent name="E:\WeWork\wospeace\springBootMyBatis\mybatis_crud_proxy\src\main\resources" />
       <recent name="E:\WeWork\wospeace\springBootMyBatis\mybaites_crud_dao\src\main\resources\com\itheima\mapper" />
       <recent name="E:\WeWork\wospeace\springBootMyBatis\mybaites_crud_dao\src\main\resources" />
       <recent name="E:\WeWork\wospeace\springBootMyBatis\mybaties_crud\src\main\resources" />
-      <recent name="E:\WeWork\wospeace\springBootMyBatis" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\WeWork\wospeace\springBootMyBatis\mybatis_day02_1_crud\src\main\resources\com\itheima\mapper" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.itheima.dao.impl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -298,52 +464,50 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.test.testFindByManyParam">
-    <configuration name="test.testFindAll (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_crud_config" />
+  <component name="RunManager" selected="JUnit.TestMybatisDynameic.test02">
+    <configuration name="TestMybatisDynameic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_day03_2_dynamic_sql" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="MAIN_CLASS_NAME" value="TestMybatisDynameic" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMybatisDynameic.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_day03_2_dynamic_sql" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMybatisDynameic" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.testFindAll (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_crud_param" />
+    <configuration name="TestMybatisDynameic.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_day03_2_dynamic_sql" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="MAIN_CLASS_NAME" value="TestMybatisDynameic" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.testFindByManyParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_crud_param" />
+    <configuration name="TestMybatisDynameic.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_day03_2_dynamic_sql" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <option name="METHOD_NAME" value="testFindByManyParam" />
+      <option name="MAIN_CLASS_NAME" value="TestMybatisDynameic" />
+      <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.testFindByMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_crud_param" />
+    <configuration name="test.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_crud_config_day03" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="test" />
-      <option name="METHOD_NAME" value="testFindByMap" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test.testFindByQuerVo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_crud_param" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <option name="METHOD_NAME" value="testFindByQuerVo" />
+      <option name="METHOD_NAME" value="testSave" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -358,11 +522,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.test.testFindByManyParam" />
-        <item itemvalue="JUnit.test.testFindByMap" />
-        <item itemvalue="JUnit.test.testFindByQuerVo" />
-        <item itemvalue="JUnit.test.testFindAll (2)" />
-        <item itemvalue="JUnit.test.testFindAll (1)" />
+        <item itemvalue="JUnit.TestMybatisDynameic.test02" />
+        <item itemvalue="JUnit.TestMybatisDynameic.test01" />
+        <item itemvalue="JUnit.TestMybatisDynameic.test" />
+        <item itemvalue="JUnit.TestMybatisDynameic" />
+        <item itemvalue="JUnit.test.testSave" />
       </list>
     </recent_temporary>
   </component>
@@ -388,7 +552,11 @@
       <workItem from="1574250261786" duration="5035000" />
       <workItem from="1574261499834" duration="4492000" />
       <workItem from="1574267130119" duration="3399000" />
-      <workItem from="1574342416171" duration="5326000" />
+      <workItem from="1574342416171" duration="8456000" />
+      <workItem from="1574560803650" duration="2525000" />
+      <workItem from="1574577193098" duration="1191000" />
+      <workItem from="1574604065543" duration="9193000" />
+      <workItem from="1574694236766" duration="7335000" />
     </task>
     <task id="LOCAL-00001" summary="通过id单独查询">
       <created>1574092506299</created>
@@ -446,43 +614,78 @@
       <option name="project" value="LOCAL" />
       <updated>1574346150227</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="根据多参数的多条件查询">
+      <created>1574348086041</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1574348086041</updated>
+    </task>
+    <task id="LOCAL-00010" summary="数据库事务管理">
+      <created>1574608334486</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1574608334486</updated>
+    </task>
+    <task id="LOCAL-00011" summary="动态代理多条件查询">
+      <created>1574697986106</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1574697986106</updated>
+    </task>
+    <task id="LOCAL-00012" summary="动态sql">
+      <created>1574700265349</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1574700265349</updated>
+    </task>
+    <task id="LOCAL-00013" summary="关联sql片段">
+      <created>1574700626242</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1574700626242</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_testFindAll_(1) - 2019.11.21 at 00h 48m 26s.xml">
-      <configuration name="test.testFindAll (1)" configurationId="JUnit" />
+    <history-entry file="TestMybatisDynameic_test - 2019.11.26 at 00h 34m 05s.xml">
+      <configuration name="TestMybatisDynameic.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testFindAll_(1) - 2019.11.21 at 01h 01m 37s.xml">
-      <configuration name="test.testFindAll (1)" configurationId="JUnit" />
+    <history-entry file="TestMybatisDynameic_test - 2019.11.26 at 00h 35m 13s.xml">
+      <configuration name="TestMybatisDynameic.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testFindAll_(1) - 2019.11.21 at 01h 02m 06s.xml">
-      <configuration name="test.testFindAll (1)" configurationId="JUnit" />
+    <history-entry file="TestMybatisDynameic_test - 2019.11.26 at 00h 36m 04s.xml">
+      <configuration name="TestMybatisDynameic.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testFindAll_(2) - 2019.11.21 at 21h 51m 14s.xml">
-      <configuration name="test.testFindAll (2)" configurationId="JUnit" />
+    <history-entry file="TestMybatisDynameic_test - 2019.11.26 at 00h 36m 22s.xml">
+      <configuration name="TestMybatisDynameic.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testFindByQuerVo - 2019.11.21 at 22h 16m 48s.xml">
-      <configuration name="test.testFindByQuerVo" configurationId="JUnit" />
+    <history-entry file="TestMybatisDynameic_test - 2019.11.26 at 00h 41m 43s.xml">
+      <configuration name="TestMybatisDynameic.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testFindByQuerVo - 2019.11.21 at 22h 17m 54s.xml">
-      <configuration name="test.testFindByQuerVo" configurationId="JUnit" />
+    <history-entry file="TestMybatisDynameic_test - 2019.11.26 at 00h 42m 24s.xml">
+      <configuration name="TestMybatisDynameic.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testFindByMap - 2019.11.21 at 22h 32m 49s.xml">
-      <configuration name="test.testFindByMap" configurationId="JUnit" />
+    <history-entry file="TestMybatisDynameic_test - 2019.11.26 at 00h 42m 51s.xml">
+      <configuration name="TestMybatisDynameic.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testFindByMap - 2019.11.21 at 22h 36m 18s.xml">
-      <configuration name="test.testFindByMap" configurationId="JUnit" />
+    <history-entry file="TestMybatisDynameic_test - 2019.11.26 at 00h 49m 20s.xml">
+      <configuration name="TestMybatisDynameic.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testFindByManyParam - 2019.11.21 at 22h 47m 30s.xml">
-      <configuration name="test.testFindByManyParam" configurationId="JUnit" />
+    <history-entry file="TestMybatisDynameic_test01 - 2019.11.26 at 01h 07m 13s.xml">
+      <configuration name="TestMybatisDynameic.test01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testFindByManyParam - 2019.11.21 at 22h 49m 40s.xml">
-      <configuration name="test.testFindByManyParam" configurationId="JUnit" />
+    <history-entry file="TestMybatisDynameic_test01 - 2019.11.26 at 01h 08m 31s.xml">
+      <configuration name="TestMybatisDynameic.test01" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59859000" />
+    <option name="totallyTimeSpent" value="83233000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -495,8 +698,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49785408" visible="true" weight="0.2739872" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49785408" visible="true" weight="0.2867804" />
       <window_info id="Structure" order="1" sideWeight="0.501462" side_tool="true" weight="0.2739872" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -506,8 +710,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925372" visible="true" weight="0.49457702" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5201845" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925372" visible="true" weight="0.28741866" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.03253796" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
@@ -515,7 +719,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50074625" side_tool="true" weight="0.34642032" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286334" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.6127983" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.25813448" />
@@ -597,6 +801,20 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="通过id单独查询" />
@@ -607,7 +825,12 @@
     <MESSAGE value="核心配置文件" />
     <MESSAGE value="核心配置文件2" />
     <MESSAGE value="多条件查询" />
-    <option name="LAST_COMMIT_MESSAGE" value="多条件查询" />
+    <MESSAGE value="根据多参数的多条件查询" />
+    <MESSAGE value="数据库事务管理" />
+    <MESSAGE value="动态代理多条件查询" />
+    <MESSAGE value="动态sql" />
+    <MESSAGE value="关联sql片段" />
+    <option name="LAST_COMMIT_MESSAGE" value="关联sql片段" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -626,295 +849,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mybatis_day02_1_crud/src/main/java/com/itheima/TestMybatiesCURD.java" />
-    <entry file="file://$PROJECT_DIR$/mybatis_day02_1_crud/src/test/java/TestMybatiesCURD.java" />
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_231/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
-          <folding>
-            <element signature="e#10065#10066#0" expanded="true" />
-            <element signature="e#10148#10149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_day02_1_crud/src/main/java/com/itheima/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding>
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_day02_1_crud/mybatis_day02_1_crud.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_day02_1_crud/src/main/resources/sqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80">
-          <caret line="6" selection-start-line="6" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_day02_1_crud/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="15" selection-start-line="15" selection-end-line="36" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_day02_1_crud/src/main/resources/com/itheima/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="62" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_day02_1_crud/src/test/java/com/itheima/TestMybatiesCURD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="82" column="58" selection-start-line="82" selection-start-column="50" selection-end-line="82" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybaties_crud/src/main/java/com/itheima/domain/teetet.java" />
-    <entry file="file://$PROJECT_DIR$/mybaties_crud/src/main/resources/sqlConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybaties_crud/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybaties_crud/src/main/java/com/itheima/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-147">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybaites_crud_dao/src/main/java/com/itheima/dao.java" />
-    <entry file="file://$PROJECT_DIR$/mybaties_crud/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="41" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybaties_crud/src/test/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybaites_crud_dao/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybaites_crud_dao/src/main/resources/sqlConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybaites_crud_dao/src/test/java/com/itheima/TestMybatisDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_crud_proxy/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybaites_crud_dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="40" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybaites_crud_dao/src/main/java/com/itheima/dao/impl/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding>
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_day02_3_crud/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_crud_proxy/src/main/resources/sqlConfig.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybaites_crud_dao/src/main/java/com/itheima/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="12" selection-start-line="12" selection-end-line="35" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_crud_proxy/src/main/java/com/itheima/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-            <element signature="e#887#888#0" expanded="true" />
-            <element signature="e#935#936#0" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybaites_crud_dao/src/main/java/com/itheima/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="9" selection-start-line="9" selection-end-line="13" selection-end-column="26" />
-          <folding>
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#883#884#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
-            <element signature="e#969#970#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/mybatis_crud_proxy/src/test/java/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_crud_proxy/src/main/java/com/itheima/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="21" column="15" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_crud_proxy/src/main/resources/com/itheima/mapper/UsersMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_crud_config/src/main/java/com/itheima/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -922,38 +856,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_crud_config/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/builder/xml/mybatis-3-config.dtd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_crud_config/src/test/java/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_crud_config/src/main/resources/sqlConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_crud_config/src/main/resources/com/itheima/dao/UserDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_crud_config/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/mybaites_crud_dao/src/main/resources/com/itheima/mapper/UsersMapper.xml">
@@ -970,9 +873,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_crud_param/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybaties_crud/src/main/resources/com/itheima/mapper/UsersMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -980,26 +880,220 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_crud_resultType/src/main/java/com/itheima/domain/QueryVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_crud_resultType/src/main/resources/com/itheima/dao/UserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_crud_resultType/src/test/java/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="67" column="24" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_crud_config/src/main/java/com/itheima/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_crud_resultType/src/main/java/com/itheima/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_crud_resultType/src/main/java/com/itheima/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_crud_config/src/test/java/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_231/src.zip!/javax/sql/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/session/SqlSessionFactoryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="48" column="41" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/builder/xml/XMLConfigBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="280" column="17" selection-start-line="280" selection-start-column="17" selection-end-line="280" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_crud_config_day03/src/test/java/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_crud_config_day03/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_crud_config_day03/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/datasource/pooled/PooledDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="387" column="33" lean-forward="true" selection-start-line="387" selection-start-column="33" selection-end-line="387" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_crud_config/src/main/resources/com/itheima/dao/UserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_crud_param/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_crud_config/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_crud_config/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_crud_config_day03/src/main/resources/sqlConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_crud_config/src/main/resources/sqlConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="48" column="8" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_crud_proxy/src/main/java/com/itheima/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis_crud_param/src/main/resources/sqlConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="20" />
+        <state relative-caret-position="1008">
+          <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_crud_proxy/src/main/java/com/itheima/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_crud_proxy/src/main/resources/com/itheima/mapper/UsersMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_crud_proxy/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_crud_proxy/src/main/resources/sqlConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="707">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybaties_crud/src/test/java/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybaties_crud/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" lean-forward="true" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_crud_param/src/main/resources/com/itheima/dao/UserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="35" column="86" selection-start-line="35" selection-start-column="86" selection-end-line="35" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_crud_param/src/main/java/com/itheima/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatis_crud_param/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_crud_param/src/main/java/com/itheima/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis_crud_param/src/main/java/com/itheima/domain/QueryVo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
+        <state relative-caret-position="273">
           <caret line="13" column="28" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="28" />
           <folding>
             <element signature="e#239#240#0" expanded="true" />
@@ -1025,24 +1119,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_crud_param/src/main/resources/com/itheima/dao/UserDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="35" column="86" selection-start-line="35" selection-start-column="86" selection-end-line="35" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis_crud_param/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-592" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatis_crud_param/src/test/java/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="128" column="5" lean-forward="true" selection-start-line="128" selection-start-column="5" selection-end-line="128" selection-end-column="5" />
+        <state relative-caret-position="324">
+          <caret line="128" column="5" selection-start-line="128" selection-start-column="5" selection-end-line="128" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/main/java/com/itheima/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="27" />
           <folding>
-            <element signature="e#2661#2677#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/main/resources/tadfasf.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_crud_proxy/src/test/java/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="19" column="117" selection-start-line="19" selection-start-column="98" selection-end-line="19" selection-end-column="117" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybaites_crud_dao/src/test/java/com/itheima/TestMybatisDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/main/resources/myybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/main/java/com/itheima/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/main/resources/com/itheima/dao/UserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="64" column="35" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_day03_2_dynamic_sql/src/test/java/TestMybatisDynameic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="71" column="20" lean-forward="true" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1731#1740#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1099,7 +1283,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>mybatis_crud_param</last-edited>
+          <last-edited>mybatis_day03_2_dynamic_sql</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

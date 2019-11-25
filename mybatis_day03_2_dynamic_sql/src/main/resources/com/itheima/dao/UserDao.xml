@@ -43,4 +43,28 @@
             </if>
         </where>
     </select>
+
+    <delete id="delByArry" parameterType="integer[]">
+        delete from users where
+--       foreach循环标签
+--               collection：参数据类型list，array
+--                open ：前缀（以什么开始）
+--                 close: 后缀（以什么关闭）
+--                  separator:分隔符
+--                  item:循环中的每一个对象
+--                   index：循环中的索引（一般不用）
+        <foreach collection="array" open="uid in ("  close=")" separator="," item="id">
+        #{id}
+
+        </foreach>
+    </delete>
+
+
+    <delete id="delByList" parameterType="integer[]">
+        delete from users where
+          <foreach collection="list" open="uid in ("  close=")" separator="," item="id">
+            #{id}
+
+        </foreach>
+    </delete>
 </mapper>
