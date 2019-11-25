@@ -7,7 +7,32 @@
         <id column="id" property="id"></id>
         <result column="username" property="username"></result>
     </resultMap>
+    <!--原始的方法-->
+    <!--<select id="findByCondition" resultMap="Users" parameterType="user">-->
+    <!--select * from users where username like "%"#{username}"%" and name =#{name}-->
+    <!--</select>-->
+
+    <!--方法一-->
+    <!--<select id="findByCondition" resultMap="Users" parameterType="user">-->
+        <!--select * from users where 1=1-->
+        <!--<if test="username != null">-->
+            <!--And username like "%"#{username}"%"-->
+        <!--</if>-->
+        <!--<if test="name != null">-->
+            <!--AND name=#{name}-->
+        <!--</if>-->
+    <!--</select>-->
+
+    <!--方法二，通过where-->
     <select id="findByCondition" resultMap="Users" parameterType="user">
-    select * from users where username like "%"#{username}"%" and name =#{name}
+      select * from users
+        <where>
+          <if test="username != null">
+            And username like "%"#{username}"%"
+          </if>
+          <if test="name != null">
+            AND name=#{name}
+          </if>
+        </where>
     </select>
 </mapper>
