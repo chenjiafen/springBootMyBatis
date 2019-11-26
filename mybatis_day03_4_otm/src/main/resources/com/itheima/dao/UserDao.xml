@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.dao.UserDao">
+    <resultMap id="users" type="user">
+        <!--映射的user表-->
+        <id column="uid" property="id"></id>
+        <result column="username" property="username"></result>
+        <result column="password" property="password"></result>
+        <result column="name" property="name"></result>
+        <result column="birthday" property="birthday"></result>
+
+        <!--Collection:映射accountList 属性
+                property :对应的属性名
+                ofType：集合中的元素类型：与association中的javaType效果一样
+            -->
+        <collection property="accountList" ofType="account">
+            <id column="id" property="id"></id>
+            <result column="name" property="name"></result>
+            <result column="money" property="money"></result>
+            <result column="u_id" property="u_id"></result>
+        </collection>
+    </resultMap>
+    <!--查询所有用户所对应的账户-->
+    <select id="findAll" resultMap="users">
+     select * from users u LEFT JOIN account a on u.uid=a.u_id
+    </select>
+</mapper>
