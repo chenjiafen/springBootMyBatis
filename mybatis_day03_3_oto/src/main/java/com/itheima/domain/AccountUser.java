@@ -58,14 +58,4 @@ public class AccountUser extends Account {
         this.birthday = birthday;
     }
 
-    @Override
-    public String toString() {
-        return "AccountUser{" +
-                "uid=" + uid +
-                ", username='" + username + '\'' +
-                ", password='" + password + '\'' +
-                ", name='" + name + '\'' +
-                ", birthday='" + birthday + '\'' +
-                "} " + super.toString();
-    }
 }

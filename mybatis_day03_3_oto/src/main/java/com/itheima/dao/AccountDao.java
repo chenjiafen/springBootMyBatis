@@ -22,4 +22,11 @@ public interface AccountDao {
      * @return
      */
     public List<AccountUser> findAllUser();
+
+    /**
+     * 查询所有账户和用户信息第二种方法
+     * 直接在Account添加User对象
+     * @return
+     */
+    public List<Account> findAllUsers();
 }

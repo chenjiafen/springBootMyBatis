@@ -10,6 +10,17 @@ public class Account {
     private Float money;
     private  Integer u_id;
 
+    //一个账户对应一个用户
+    private User user;
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
     public Integer getId() {
         return id;
     }
@@ -49,6 +60,7 @@ public class Account {
                 ", name='" + name + '\'' +
                 ", money=" + money +
                 ", u_id=" + u_id +
+                ", user=" + user +
                 '}';
     }
 }

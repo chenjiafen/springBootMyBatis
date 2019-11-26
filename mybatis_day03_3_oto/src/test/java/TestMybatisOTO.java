@@ -24,6 +24,9 @@ public class TestMybatisOTO {
         sqlSessionFactory = new SqlSessionFactoryBuilder().build(this.getClass().getClassLoader().getResourceAsStream("myybatis-config.xml"));
     }
 
+    /**
+     * 查询所有的账户，不包含用户信息
+     */
     @Test
     public void testFindAll(){
        SqlSession sqlSession= sqlSessionFactory.openSession();
@@ -34,6 +37,10 @@ public class TestMybatisOTO {
         }
         sqlSession.close();
     }
+
+    /**
+     * 查询所有的账户，包含用户信息
+     */
     @Test
     public void testFindAll02(){
         SqlSession sqlSession= sqlSessionFactory.openSession();
@@ -44,5 +51,18 @@ public class TestMybatisOTO {
         }
         sqlSession.close();
     }
+
+
+    @Test
+    public void testFindAll3(){
+        SqlSession sqlSession= sqlSessionFactory.openSession();
+        AccountDao accountDao= sqlSession.getMapper(AccountDao.class);
+        List<Account> accounUsertList=accountDao.findAllUsers();
+        for (Account Accounts : accounUsertList) {
+            System.out.println("用所有信息"+Accounts);
+        }
+        sqlSession.close();
+    }
+
 
 }

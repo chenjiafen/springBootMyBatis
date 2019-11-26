@@ -7,8 +7,28 @@
             <!--select * from account-->
         <!--</select>-->
 
+    <!--继承了Account，就拥有了Account中所有属性-->
     <select id="findAllUser" resultType="accountUser">
         select * from account a,users u where a.u_id=u.uid
+    </select>
+
+    <resultMap id="accounts" type="account">
+        <id column="id" property="id"></id>
+        <result column="name" property="name"></result>
+        <result column="money" property="money"></result>
+        <result column="u_id" property="u_id"></result>
+
+        <!--映射User中的属性-->
+        <result  column="uid" property="user.id"></result>
+        <result  column="username" property="user.username"></result>
+        <result  column="password" property="user.password"></result>
+        <result  column="name" property="user.name"></result>
+        <result  column="birthday" property="user.birthday"></result>
+
+    </resultMap>
+    <!--第二种方法，包含User对象,不创建继承关系pojo-->
+    <select id="findAllUsers" resultMap="accounts">
+      select * from account a,users u where a.u_id=u.uid
     </select>
 
 </mapper>
