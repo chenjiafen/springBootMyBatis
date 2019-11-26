@@ -19,11 +19,21 @@
         <result column="u_id" property="u_id"></result>
 
         <!--映射User中的属性-->
-        <result  column="uid" property="user.id"></result>
-        <result  column="username" property="user.username"></result>
-        <result  column="password" property="user.password"></result>
-        <result  column="name" property="user.name"></result>
-        <result  column="birthday" property="user.birthday"></result>
+        <!--<result  column="uid" property="user.id"></result>-->
+        <!--<result  column="username" property="user.username"></result>-->
+        <!--<result  column="password" property="user.password"></result>-->
+        <!--<result  column="name" property="user.name"></result>-->
+        <!--<result  column="birthday" property="user.birthday"></result>-->
+
+
+        <!--property="user"要对应到Account类的user,里面属性必须都写上,映射单个对象-->
+        <association property="user" javaType="user">
+            <id column="uid" property="id"></id>
+            <result column="username" property="username"></result>
+            <result  column="password" property="password"></result>
+            <result  column="name" property="name"></result>
+            <result  column="birthday" property="birthday"></result>
+        </association>
 
     </resultMap>
     <!--第二种方法，包含User对象,不创建继承关系pojo-->
