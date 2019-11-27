@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.dao.AccountDao">
+    <resultMap id="accounts" type="account">
+        <id column="id" property="id"></id>
+        <result column="name" property="name"></result>
+        <result column="money" property="money"></result>
+        <result column="u_id" property="u_id"></result>
+        <!--映射user ：原来的代码 -->
+        <!--<association property="user" javaType="User">-->
+            <!--<id column="uid" property="uid"></id>-->
+            <!--<result column="username" property="username"></result>-->
+            <!--<result column="password" property="password"></result>-->
+            <!--<result column="name" property="name"></result>-->
+            <!--<result column="birthday" property="birthday"></result>-->
+        <!--</association>-->
+        <!--映射user ：原来的代码 -->
+
+
+        <!--映射user属性
+        column="u_id"：要通过列去查询用户对象
+        select:映射到了要执行的方法：mapperId=namespace.id
+        -->
+        <association property="user" javaType="User" column="u_id" select="com.itheima.dao.UserDao.findById">
+
+        </association>
+    </resultMap>
+    
+    
+        <select id="findAll" resultMap="accounts">
+           select *  from account a,users u where u.uid =a.id
+
+        </select>
+</mapper>
