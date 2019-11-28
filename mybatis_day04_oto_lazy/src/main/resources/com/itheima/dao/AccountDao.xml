@@ -10,11 +10,11 @@
         <result column="u_id" property="u_id"></result>
         <!--映射user ：原来的代码 -->
         <!--<association property="user" javaType="User">-->
-            <!--<id column="uid" property="uid"></id>-->
-            <!--<result column="username" property="username"></result>-->
-            <!--<result column="password" property="password"></result>-->
-            <!--<result column="name" property="name"></result>-->
-            <!--<result column="birthday" property="birthday"></result>-->
+        <!--<id column="uid" property="uid"></id>-->
+        <!--<result column="username" property="username"></result>-->
+        <!--<result column="password" property="password"></result>-->
+        <!--<result column="name" property="name"></result>-->
+        <!--<result column="birthday" property="birthday"></result>-->
         <!--</association>-->
         <!--映射user ：原来的代码 -->
 
@@ -22,15 +22,18 @@
         <!--映射user属性
         column="u_id"：要通过列去查询用户对象
         select:映射到了要执行的方法：mapperId=namespace.id
+
+
+        fetchType="lazy"   :加载方法 ：lazy延时加载   eager :立即记载
         -->
-        <association property="user" javaType="User" column="u_id" select="com.itheima.dao.UserDao.findById">
+        <association property="user" javaType="User" column="u_id" select="com.itheima.dao.UserDao.findById" fetchType="lazy">
 
         </association>
     </resultMap>
-    
-    
-        <select id="findAll" resultMap="accounts">
-           select *  from account a,users u where u.uid =a.id
+
+
+    <select id="findAll" resultMap="accounts">
+        select *  from account
 
         </select>
 </mapper>

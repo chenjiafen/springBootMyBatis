@@ -29,7 +29,9 @@ public class TestDemo {
         AccountDao accountDao = sqlSession.getMapper(AccountDao.class);
         List<Account> accountList= accountDao.findAll();
         for (Account account : accountList) {
-                System.out.println("账户+用户信息"+account);
+                System.out.println("账户+用户信息"+account.getName());
+//            System.out.println(account.getName());
+            System.out.println(account.getUser());
         }
         sqlSession.close();
     }

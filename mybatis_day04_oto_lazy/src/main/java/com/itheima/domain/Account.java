@@ -60,7 +60,7 @@ public class Account {
                 ", name='" + name + '\'' +
                 ", monkey=" + money +
                 ", u_id=" + u_id +
-                ", user=" + user +
+//                ", user=" + user +
                 '}';
     }
 }
