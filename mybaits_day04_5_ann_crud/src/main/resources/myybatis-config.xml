@@ -6,17 +6,6 @@
   -->
 <configuration>
     <properties resource="jdbc.properties"></properties>
-
-    <!--核心配置文件的全局的设置-->
-    <settings>
-        <!--开启全局的懒加载-->
-        <setting name="lazyLoadingEnabled" value="true"/>
-    </settings>
-
-    <typeAliases>
-        <package name="com.itheima.domain"></package>
-    </typeAliases>
-    <!--配置数据库的环境-->
     <environments default="development">
         <environment id="development">
             <transactionManager type="JDBC"/>
@@ -28,11 +17,9 @@
             </dataSource>
         </environment>
     </environments>
-
-    <!--引入配置文件-->
     <mappers>
         <!--映射文件的引入-->
         <!--<mapper class="com.itheima.dao.UserDao"></mapper>-->
-        <package name="com.itheima.dao"></package>
+        <package name="com.chenjiafeng.dao"></package>
     </mappers>
 </configuration>
