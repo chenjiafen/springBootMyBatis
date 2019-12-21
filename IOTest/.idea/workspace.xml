@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="335c1f8f-f624-4d8d-ab2a-52120de30570" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStreamDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyStreamDemo/src/main/java/FileTest/FileGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/MyBatisProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/dictionaries/chenjiafeng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/libraries/Maven__org_mybatis_mybatis_3_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/JavaTest/JavaTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/JavaTest/src/com/chenjiafeng/Demo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/mybatis_crud_01/mybatis_crud_01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/mybatis_crud_01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/mybatis_crud_01/src/main/java/com/chenjiafeng/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/mybatis_crud_01/src/main/java/com/chenjiafeng/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/mybatis_crud_01/src/main/resources/com/chenjiafeng/dao/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/mybatis_crud_01/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/mybatis_crud_01/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/mybatis_crud_01/src/main/resources/sqlConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/mybatis_crud_01/src/test/java/TestUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/mybatis_crud_01/笔记.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/mybatis_CRUD_01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/mybatis_CRUD_01/src/main/java/com/chenjiafeng/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/mybatis_CRUD_01/src/main/java/com/chenjiafeng/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/mybatis_CRUD_01/src/main/resources/com.chenjiafeng/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/mybatis_CRUD_01/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/mybatis_CRUD_01/src/main/resources/sqlConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/mybatis_CRUD_01/src/test/java/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/mybatis_crud_proxy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/mybatis_crud_proxy/src/main/java/com/chenjiafeng/domian/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring_day02_1_crud_ioc_xml/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring_day02_1_crud_ioc_xml/src/main/java/com/chenjiafeng/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/spring_day02_1_crud_ioc_xml/src/main/java/com/chenjiafeng/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StreamDemo/aaa.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StreamDemo/src/com/chenjiafneg/Stream/Demo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StreamDemo/src/com/chenjiafneg/Stream/Demo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StreamDemo/src/com/chenjiafneg/Stream/Demo03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StreamDemo/src/com/chenjiafneg/Stream/Demo04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StreamDemo/src/com/chenjiafneg/Stream/Demo05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StreamDemo/src/com/chenjiafneg/Stream/Demo06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StreamDemo/src/com/chenjiafneg/file/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StreamDemo/src/com/chenjiafneg/file/TestDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StreamDemo/src/com/chenjiafneg/file/TestDemo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StreamDemo/src/com/chenjiafneg/file/TestDemo03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StreamDemo/src/com/chenjiafneg/file/TestDemo04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StreamDemo/src/com/chenjiafneg/file/TestDemo05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StreamDemo/src/com/chenjiafneg/file/TestDemo06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/springmybatits/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/springmybatits/springmybatits.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/springmybatits/src/main/java/com/chenjiafeng/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/springmybatits/src/main/resources/com/chenjiafneg/mapper/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/springmybatits/src/main/resources/sqlConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/springmybatits/src/test/java/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_product_crud/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_product_crud/src/main/java/com/chenjiafeng/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_product_crud/src/main/resources/chenjiafeng/mapper/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_product_crud/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_product_crud/src/main/resources/sqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_product_crud/src/test/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatismytest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/java/com/chenjiafeng/controller/ProductContoller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/java/com/chenjiafeng/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/java/com/chenjiafeng/mapper/ProdcutMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/java/com/chenjiafeng/service/ProrductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/java/com/chenjiafeng/service/serviceimpl/ProrductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/resources/com/chenjiafeng/mapper/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/resources/sqlConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_day02_1_crud/src/main/resources/sqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_day02_1_crud/src/main/resources/sqlMapConfig.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/MyStreamDemo/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyStreamDemo/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MyStreamDemo/src/main/java/FileTest/FileGet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/MyStreamDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/MyStreamDemo/src/main/java/FileTest/TestDemo01.java" />
+        <option value="$PROJECT_DIR$/MyStreamDemo/src/main/java/FileTest/FileGet.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/IOTest.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/MyStreamDemo/MyStreamDemo.iml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="47" />
+    <option name="y" value="23" />
+    <option name="width" value="1393" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="IOTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IOTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IOTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IOTest" type="462c0819:PsiDirectoryNode" />
+              <item name="MyStreamDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IOTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IOTest" type="462c0819:PsiDirectoryNode" />
+              <item name="MyStreamDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IOTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IOTest" type="462c0819:PsiDirectoryNode" />
+              <item name="MyStreamDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IOTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IOTest" type="462c0819:PsiDirectoryNode" />
+              <item name="MyStreamDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IOTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IOTest" type="462c0819:PsiDirectoryNode" />
+              <item name="MyStreamDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="FileTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IOTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IOTest" type="462c0819:PsiDirectoryNode" />
+              <item name="MyStreamDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="FileTest" type="462c0819:PsiDirectoryNode" />
+              <item name="FileGet" type="1a9f42e2:ClassTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="FileGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileTest.FileGet" />
+      <module name="MyStreamDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FileTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FileGet" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="335c1f8f-f624-4d8d-ab2a-52120de30570" name="Default Changelist" comment="" />
+      <created>1575956281311</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575956281311</updated>
+      <workItem from="1575956282817" duration="2168000" />
+      <workItem from="1575958820784" duration="106000" />
+      <workItem from="1576670121562" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2284000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="47" y="23" width="1393" height="877" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2568468" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3299363" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MyStreamDemo/src/main/java/com/chenjiafneg/FileGet.java" />
+    <entry file="file://$PROJECT_DIR$/MyStreamDemo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyStreamDemo/src/main/java/FileTest/FileGet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>MyStreamDemo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

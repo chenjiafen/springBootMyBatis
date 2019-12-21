@@ -2,11 +2,8 @@
 <!DOCTYPE configuration
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
-<!--
-
-从 XML 中构建 SqlSessionFactory
-mac 电脑的数据库
--->
+      <!--  从 XML 中构建 SqlSessionFactory
+        -->
 <configuration>
     <environments default="development">
         <environment id="development">
@@ -20,6 +17,6 @@ mac 电脑的数据库
         </environment>
     </environments>
     <mappers>
-        <mapper resource="com/itheima/mapper/UserMapper.xml"/>
+        <mapper resource="com/chenjiafeng/mapper/ProductMapper.xml"/>
     </mappers>
 </configuration>

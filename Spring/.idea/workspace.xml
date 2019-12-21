@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03a037a2-1d9f-4105-b26d-ee2544cc935a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/MyBatisProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/dictionaries/chenjiafeng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/libraries/Maven__org_mybatis_mybatis_3_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/JavaTest/JavaTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/JavaTest/src/com/chenjiafeng/Demo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/mybatis_crud_01/mybatis_crud_01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/mybatis_crud_01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/mybatis_crud_01/src/main/java/com/chenjiafeng/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/mybatis_crud_01/src/main/java/com/chenjiafeng/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/mybatis_crud_01/src/main/resources/com/chenjiafeng/dao/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/mybatis_crud_01/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/mybatis_crud_01/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/mybatis_crud_01/src/main/resources/sqlConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/mybatis_crud_01/src/test/java/TestUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisProject/mybatis_crud_01/笔记.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_day02_1_crud_ioc_xml/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_day02_1_crud_ioc_xml/src/main/java/com/chenjiafeng/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_day02_1_crud_ioc_xml/src/main/java/com/chenjiafeng/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/springmybatits/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/springmybatits/springmybatits.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/springmybatits/src/main/java/com/chenjiafeng/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/springmybatits/src/main/resources/com/chenjiafneg/mapper/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/springmybatits/src/main/resources/sqlConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/springmybatits/src/test/java/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_product_crud/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_product_crud/src/main/java/com/chenjiafeng/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_product_crud/src/main/resources/chenjiafeng/mapper/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_product_crud/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_product_crud/src/main/resources/sqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis_product_crud/src/test/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatismytest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/java/com/chenjiafeng/controller/ProductContoller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/java/com/chenjiafeng/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/java/com/chenjiafeng/mapper/ProdcutMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/java/com/chenjiafeng/service/ProrductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/java/com/chenjiafeng/service/serviceimpl/ProrductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/resources/com/chenjiafeng/mapper/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/resources/sqlConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis_day02_1_crud/src/main/resources/sqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_day02_1_crud/src/main/resources/sqlMapConfig.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/spring_day02_1_crud_ioc_xml/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring_day02_1_crud_ioc_xml/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring_day02_1_crud_ioc_xml/src/main/java/com/chenjiafeng/domain/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-102">
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+              <folding>
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+                <element signature="e#673#674#0" expanded="true" />
+                <element signature="e#708#709#0" expanded="true" />
+                <element signature="e#739#740#0" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
+                <element signature="e#827#828#0" expanded="true" />
+                <element signature="e#857#858#0" expanded="true" />
+                <element signature="e#883#884#0" expanded="true" />
+                <element signature="e#921#922#0" expanded="true" />
+                <element signature="e#951#952#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring_day02_1_crud_ioc_xml/src/main/java/com/chenjiafeng/dao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/spring_day02_1_crud_ioc_xml/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_day02_1_crud_ioc_xml/src/main/java/com/chenjiafeng/domain/Account.java" />
+        <option value="$PROJECT_DIR$/spring_day02_1_crud_ioc_xml/src/main/java/com/chenjiafeng/dao/UserDao.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/Spring.iml" />
+        <option value="$PROJECT_DIR$/spring_day02_1_crud_ioc_xml/spring_day02_1_crud_ioc_xml.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbutils_commons_dbutils_1_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="47" />
+    <option name="y" value="23" />
+    <option name="width" value="1393" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_day02_1_crud_ioc_xml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_day02_1_crud_ioc_xml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_day02_1_crud_ioc_xml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_day02_1_crud_ioc_xml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_day02_1_crud_ioc_xml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_day02_1_crud_ioc_xml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="chenjiafeng" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_day02_1_crud_ioc_xml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03a037a2-1d9f-4105-b26d-ee2544cc935a" name="Default Changelist" comment="" />
+      <created>1575474664477</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575474664477</updated>
+      <workItem from="1575474665813" duration="2112000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2112000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="47" y="23" width="1393" height="877" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24944486" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/spring_day02_1_crud_ioc_xml/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_day02_1_crud_ioc_xml/src/main/java/com/chenjiafeng/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_day02_1_crud_ioc_xml/src/main/java/com/chenjiafeng/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding>
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>spring_day02_1_crud_ioc_xml</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

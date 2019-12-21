@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--
+动态代理模式：规范必须遵守
+    namespace:必须是对应接口的权限类名
+    select|update|insert|delete:四个标签的id必须对应dao接口的方法名
+-->
+<mapper namespace="com.chenjiafeng.dao.UserDao">
+
+    <sql id="select_user">Select * from user</sql>
+    <!-- sql片段提取     -->
+    <select id="findAll" resultType="User">
+        select * from user
+    </select>
+
+    <!--模糊查询usname，查询name    -->
+    <select id="findByCondtion" resultType="user">
+        select * from user where username like "%"#{username}"%" and password =#{password}
+    </select>
+
+
+</mapper>

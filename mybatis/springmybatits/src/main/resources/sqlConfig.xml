@@ -5,7 +5,6 @@
 <!--
 
 从 XML 中构建 SqlSessionFactory
-mac 电脑的数据库
 -->
 <configuration>
     <environments default="development">
@@ -20,6 +19,6 @@ mac 电脑的数据库
         </environment>
     </environments>
     <mappers>
-        <mapper resource="com/itheima/mapper/UserMapper.xml"/>
+        <mapper resource="com/chenjiafeng/mapper/ProductMapper.xml"/>
     </mappers>
 </configuration>

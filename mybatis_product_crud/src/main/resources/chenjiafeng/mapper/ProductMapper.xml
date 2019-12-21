@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="productMapper">
+    <!--查询用户所有信息-->
+    <select id="findAll" resultType="com.chenjiafeng.domain.Product">
+        Select * from product
+    </select>
+
+    <!-- 通过该ID查询用户-->
+    <select id="findByPid" resultType="com.chenjiafeng.domain.Product" parameterType="java.lang.String">
+        select  * from product where pid=#{adsa}
+    </select>
+
+    <!--用户保存,注意保存参数值与数据库保持还一致-->
+    <select id="save" parameterType="com.chenjiafeng.domain.Product">
+        insert into product value (#{pid},#{pname},#{market_price},#{shop_price},#{pimage},#{pdate},#{pdesc})
+
+    </select>
+
+</mapper>
