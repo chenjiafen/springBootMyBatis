@@ -12,7 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class TestController {
 
     @RequestMapping("/test")
-    public void test(){
+    public String test(){
         System.out.println("测试成功");
+        return "show";
     }
 }

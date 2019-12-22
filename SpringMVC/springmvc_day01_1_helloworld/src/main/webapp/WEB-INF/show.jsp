@@ -2,7 +2,7 @@
   Created by IntelliJ IDEA.
   User: chenjiafeng
   Date: 2019-12-22
-  Time: 01:18
+  Time: 18:36
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page isELIgnored="false" contentType="text/html;charset=UTF-8" language="java" %>
@@ -11,8 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-<%--isELIgnored="false" 不忽略el表达式--%>
-    <a href="${pageContext.request.contextPath}/test">请求1</a>
-    <a href="/test">请求2</a>
+    展示页面
 </body>
 </html>

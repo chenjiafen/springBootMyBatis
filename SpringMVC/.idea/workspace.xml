@@ -1,127 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="springmvc_day01_1_helloworld:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e04e4f5e-a021-451f-aadd-15573a4ee543" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../IOTest/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IOTest/MyStreamDemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IOTest/MyStreamDemo/src/main/java/FileTest/FileGet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java Foundation/src/chenjiafeng/TestDemo01/Demo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java Foundation/src/chenjiafeng/TestDemo01/Demo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/MyBatisProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/dictionaries/chenjiafeng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/libraries/Maven__org_mybatis_mybatis_3_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisProject/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisProject/JavaTest/JavaTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisProject/JavaTest/src/com/chenjiafeng/Demo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisProject/mybatis_crud_01/mybatis_crud_01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisProject/mybatis_crud_01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisProject/mybatis_crud_01/src/main/java/com/chenjiafeng/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisProject/mybatis_crud_01/src/main/java/com/chenjiafeng/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisProject/mybatis_crud_01/src/main/resources/com/chenjiafeng/dao/UserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisProject/mybatis_crud_01/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisProject/mybatis_crud_01/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisProject/mybatis_crud_01/src/main/resources/sqlConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisProject/mybatis_crud_01/src/test/java/TestUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisProject/mybatis_crud_01/笔记.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisTest/mybatis_CRUD_01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisTest/mybatis_CRUD_01/src/main/java/com/chenjiafeng/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisTest/mybatis_CRUD_01/src/main/java/com/chenjiafeng/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisTest/mybatis_CRUD_01/src/main/resources/com.chenjiafeng/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisTest/mybatis_CRUD_01/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisTest/mybatis_CRUD_01/src/main/resources/sqlConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisTest/mybatis_CRUD_01/src/test/java/TestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisTest/mybatis_crud_proxy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyBatisTest/mybatis_crud_proxy/src/main/java/com/chenjiafeng/domian/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring/spring_day02_1_crud_ioc_xml/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring/spring_day02_1_crud_ioc_xml/src/main/java/com/chenjiafeng/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring/spring_day02_1_crud_ioc_xml/src/main/java/com/chenjiafeng/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/SpringMVC.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/springmvc_day01_1_helloworld_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/springmvc_day01_1_helloworld_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_api_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_day01_1_helloworld/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_day01_1_helloworld/springmvc_day01_1_helloworld.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/java/com/itheima/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StreamDemo/aaa.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StreamDemo/src/com/chenjiafneg/Stream/Demo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StreamDemo/src/com/chenjiafneg/Stream/Demo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StreamDemo/src/com/chenjiafneg/Stream/Demo03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StreamDemo/src/com/chenjiafneg/Stream/Demo04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StreamDemo/src/com/chenjiafneg/Stream/Demo05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StreamDemo/src/com/chenjiafneg/Stream/Demo06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StreamDemo/src/com/chenjiafneg/file/TestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StreamDemo/src/com/chenjiafneg/file/TestDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StreamDemo/src/com/chenjiafneg/file/TestDemo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StreamDemo/src/com/chenjiafneg/file/TestDemo03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StreamDemo/src/com/chenjiafneg/file/TestDemo04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StreamDemo/src/com/chenjiafneg/file/TestDemo05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StreamDemo/src/com/chenjiafneg/file/TestDemo06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis/springmybatits/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis/springmybatits/springmybatits.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis/springmybatits/src/main/java/com/chenjiafeng/domain/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis/springmybatits/src/main/resources/com/chenjiafneg/mapper/ProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis/springmybatits/src/main/resources/sqlConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis/springmybatits/src/test/java/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_product_crud/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_product_crud/src/main/java/com/chenjiafeng/domain/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_product_crud/src/main/resources/chenjiafeng/mapper/ProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_product_crud/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_product_crud/src/main/resources/sqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis_product_crud/src/test/java/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatismytest/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/java/com/chenjiafeng/controller/ProductContoller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/java/com/chenjiafeng/domain/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/java/com/chenjiafeng/mapper/ProdcutMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/java/com/chenjiafeng/service/ProrductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/java/com/chenjiafeng/service/serviceimpl/ProrductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/resources/com/chenjiafeng/mapper/ProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myspringboot/src/main/resources/sqlConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test-maven/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test-maven/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test-maven/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test-maven/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test-maven/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test-maven/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test-maven/.idea/test-maven.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test-maven/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test-maven/javasehello/javasehello.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test-maven/javasehello/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis_day02_1_crud/src/main/resources/sqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis_day02_1_crud/src/main/resources/sqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/resources/images.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/webapp/WEB-INF/show.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/java/com/itheima/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/java/com/itheima/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/springmvc_day01_1_helloworld/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -165,17 +56,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/resources/spring-mvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+            <state relative-caret-position="180">
+              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+            <state relative-caret-position="90">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -183,22 +74,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/java/com/itheima/controller/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="240">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#298#299#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/resources/images.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/webapp/WEB-INF/show.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            <state relative-caret-position="210">
+              <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -215,18 +118,30 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/springmvc_day01_1_helloworld/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/webapp/WEB-INF/show.jsp" />
+        <option value="$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/java/com/itheima/controller/TestController.java" />
         <option value="$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/java/com/itheima/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/webapp/index.jsp" />
       </list>
     </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -257,31 +172,6 @@
     <option name="jreName" value="1.8" />
     <option name="skipTests" value="true" />
     <option name="vmOptions" value="-DarchetypeCatalog=local" />
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/SpringMVC.iml" />
-        <option value="$PROJECT_DIR$/springmvc_day01_1_helloworld/springmvc_day01_1_helloworld.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/.idea/artifacts/springmvc_day01_1_helloworld_war.xml" />
-        <option value="$PROJECT_DIR$/.idea/artifacts/springmvc_day01_1_helloworld_war_exploded.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_2_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_2_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_2_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_2_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_2_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_2_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_api_2_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_2_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_2_RELEASE.xml" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
@@ -387,18 +277,6 @@
               <item name="springmvc_day01_1_helloworld" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="itheima" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="TestController" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="SpringMVC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC" type="462c0819:PsiDirectoryNode" />
-              <item name="springmvc_day01_1_helloworld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -412,13 +290,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -519,12 +402,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576947151982</updated>
-      <workItem from="1576947153484" duration="2120000" />
+      <workItem from="1576947153484" duration="6767000" />
     </task>
+    <task id="LOCAL-00001" summary="SpringMVC入门案例">
+      <created>1576949278890</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576949278891</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2120000" />
+    <option name="totallyTimeSpent" value="6767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -542,14 +433,14 @@
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5007153" side_tool="true" weight="0.339895" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.339895" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.339895" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -577,13 +468,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springmvc_day01_1_helloworld/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-421">
@@ -591,29 +475,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/resources/images.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/webapp/WEB-INF/show.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        <state relative-caret-position="195">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/java/com/itheima/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="240">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        <state relative-caret-position="210">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc_day01_1_helloworld/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>

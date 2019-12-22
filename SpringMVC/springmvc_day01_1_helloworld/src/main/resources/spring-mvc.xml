@@ -3,6 +3,14 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
-<!--  开启注解，扫面包  -->
+    <!--  开启注解，扫面包  -->
     <context:component-scan base-package="com.itheima"></context:component-scan>
+    <!-- 试图解析器：内部资源试图分析器   -->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <!-- 配置前置 -->
+        <property name="prefix" value="/WEB-INF/"></property>
+        <!-- 配置后置  -->
+        <property name="suffix" value=".jsp"></property>
+
+    </bean>
 </beans>
