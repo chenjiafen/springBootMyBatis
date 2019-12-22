@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/springmvc_day01_1_helloworld" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc_day01_pram" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -10,6 +11,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/springmvc_day01_1_helloworld/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc_day01_pram/pom.xml" />
       </list>
     </option>
   </component>
