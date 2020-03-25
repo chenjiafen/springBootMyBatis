@@ -2,6 +2,7 @@ package com.tensquare.base.controller;
 
 import com.tensquare.base.pojo.Label;
 import com.tensquare.base.service.LabelService;
+import entity.PageResult;
 import entity.Result;
 import entity.StausCode;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,8 +39,7 @@ public class LabelController {
     // 改
     @RequestMapping(value = "/{id}",method = RequestMethod.PUT)
     public Result update(@RequestBody Label label,@PathVariable String id){
-        label.setId(id);
-        labelService.update(label);
+        labelService.update(id,label);
         return  new Result(StausCode.OK,true,"修改成功");
     }
     // 查 查询所有
@@ -48,5 +48,23 @@ public class LabelController {
       List<Label> labelList=  labelService.findAll();
         return  new Result(StausCode.OK,true,"查询成功",labelList);
     }
+    //查 根据id查询
+    @RequestMapping(value = "/{id}",method = RequestMethod.GET)
+    public Result findById(@PathVariable String id){
+       Label label= labelService.findById(id);
+       return new Result(StausCode.OK,true,"查询成功",label);
+    }
 
+    //查 根据参数查询
+    @RequestMapping(value = "/search",method = RequestMethod.POST)
+    public Result findByCondition(@RequestBody Label label){
+     List<Label> labelList= labelService.findByCondition(label);
+     return new Result(StausCode.OK,true,"查询成功",labelList);
+    }
+    //查 分页查询
+    @RequestMapping(value = "/search/{page}/{size}",method = RequestMethod.POST)
+    public Result findPageByCondition(@RequestBody Label label,@PathVariable Integer page,@PathVariable Integer size){
+        PageResult<Label> pageResult= labelService.findPageByCondition(page,size,label);
+        return new Result(StausCode.OK,true,"查询成功",pageResult);
+    }
 }
