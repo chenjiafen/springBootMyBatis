@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--方法二，引入外部属性文件-->
+    <properties resource="jdbc.properties"></properties>
+
+<!-- 别名映射   -->
+    <typeAliases>
+        <package name="com.itheima.domain"></package>
+    </typeAliases>
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <mappers>
+        <!-- #1、resoure所对用的文件要和dao层在同一个目录下 -->
+        <!-- <mapper resource="com/itheima/dao/IUserDao.xml"/>-->
+
+        <!-- #2、告知 mybatis 映射配置的位置 -->
+        <mapper class="com.itheima.dao.IUserDao"/>
+    </mappers>
+
+</configuration>

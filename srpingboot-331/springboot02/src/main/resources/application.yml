@@ -1,0 +1,9 @@
+girl:
+  age: 18
+  cup-size: B
+
+
+cupSzie: B
+age: 18
+
+content: "cupSize:${cupSzie},age:${age}"

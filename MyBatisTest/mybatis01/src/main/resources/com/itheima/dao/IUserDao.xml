@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.dao.IUserDao">
+    <!-- 配置查询所有操作，parameterType传入值类型，resultType返回类型-->
+    <select id="findAll" resultType="com.itheima.domain.User">
+        select * from user
+    </select>
+    <select id="findByiId" resultType="com.itheima.domain.User" parameterType="int">
+        select * from user where id = #{uid}
+    </select>
+
+    <!--保存用户-->
+    <insert id="saveUser" parameterType="com.itheima.domain.User">
+    insert into user(username,birthday,sex,address)
+    values(#{username},#{birthday},#{sex},#{address})
+    </insert>
+
+    <!--更新用户-->
+    <update id="updateUser" parameterType="com.itheima.domain.User">
+        update user set username=#{username},birthday=#{birthday},sex=#{sex},address=#{address} where id=#{id}
+    </update>
+
+    <delete id="deleteUser" parameterType="com.itheima.domain.User">
+        delete from user where id = #{uid}
+    </delete>
+    <!-- 第一种模糊查询   -->
+    <!--        <select id="findByName" resultType="com.itheima.domain.User" parameterType="String">-->
+    <!--             select * from user where username like #{username}-->
+
+    <!--        </select>-->
+
+    <!-- 第二种模糊查询-->
+    <select id="findByName" resultType="com.itheima.domain.User" parameterType="String">
+        select * from user where username like '%${value}%'
+
+    </select>
+
+    <select id="findTotal" resultType="int">
+        select count(*) from user;
+    </select>
+
+    <select id="findByVo" resultType="com.itheima.domain.User" parameterType="com.itheima.domain.QueryVo">
+     select * from user where username like #{user.username};
+    </select>
+
+    <select id="findByUser" resultType="user" parameterType="user">
+        select * from user where 1=1
+        <if test="username!=null and username != '' ">
+            and username like #{username}
+        </if>
+        <if test="address != null">
+            and address like #{address}
+
+        </if>
+
+    </select>
+
+    <sql id="defaultSql">
+        select * from user
+    </sql>
+    <!-- 查询所有用户在 id 的集合之中 -->
+    <select id="findInIds" resultType="user" parameterType="queryvo">
+        <!-- select * from user where id in (1,2,3,4,5); -->
+        <include refid="defaultSql"></include>
+        <where>
+            <if test="ids != null and ids.size() > 0">
+                <foreach collection="ids" open="i   d in ( " close=")" item="uid" separator=",">
+                    #{uid}
+                </foreach>
+            </if>
+        </where>
+    </select>
+</mapper>
